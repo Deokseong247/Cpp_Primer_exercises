@@ -32,7 +32,6 @@ int main()
 
     rr = &i;  //  r refers to pp. assigning &i to r -> pp point to i
     *rr = 0;  // dereferencing r = i or the object pp pointing to. assigning 0 to *r -> assigning 0 to i
-
     
     return 0;
 }
