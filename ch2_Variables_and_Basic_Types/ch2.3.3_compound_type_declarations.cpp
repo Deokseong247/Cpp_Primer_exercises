@@ -29,12 +29,10 @@ int main()
                       (4) int: The pointer rr referring to points an int. 
                       (5) Keep in mind that reading from right to left helps understanding complicated declaration of pointers or references.
         */
-        
 
     rr = &i;  //  r refers to pp. assigning &i to r -> pp point to i
     *rr = 0;  // dereferencing r = i or the object pp pointing to. assigning 0 to *r -> assigning 0 to i
 
     
-
     return 0;
 }
